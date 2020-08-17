@@ -9,5 +9,5 @@ Scenario: Report visitor trends during a week of operation
 Scenario: Alert when seating capacity is full
 
   Given the hospital as seating facility
-  When seating capacity is filled
+  When seating capacity is full
   Then alert and arrange for extra seating

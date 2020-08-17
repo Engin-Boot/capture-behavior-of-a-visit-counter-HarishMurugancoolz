@@ -2,12 +2,12 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given
-  When
-  Then
+  Given the hospital recorded the visitor trends during the week
+  When facility manager request report
+  Then report the visitor trends
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given the hospital as seating facility
+  When seating capacity is filled
+  Then alert and arrange for extra seatings
